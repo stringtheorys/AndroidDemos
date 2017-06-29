@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.stringtheory.androiddemos.StartScreen">
+
+    <TextView
+        android:id="@+id/startScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Screen"
+        android:textColor="@android:color/black"
+        android:textSize="30px"
+        android:layout_marginTop="20px"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/DynamicLayout"
+        android:layout_below="@+id/startScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Layout"
+        android:textColor="@android:color/black"
+        android:textSize="30px"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/GestureControl"
+        android:layout_below="@+id/DynamicLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gesture Control"
+        android:textColor="@android:color/black"
+        android:textSize="30px"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/swipeDemo"
+        android:layout_below="@+id/GestureControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Swipe Demo"
+        android:textColor="@android:color/black"
+        android:textSize="30px"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/threadDemo"
+        android:layout_below="@+id/swipeDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thread Demo"
+        android:textColor="@android:color/black"
+        android:textSize="30px"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+</RelativeLayout>

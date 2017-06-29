@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/MainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the gesture control example"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/MainText"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/CurrentGesture"
+        android:text="No Gesture has been done"
+        android:textSize="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/BackButton"
+        android:layout_marginTop="50px"/>
+
+</RelativeLayout>
